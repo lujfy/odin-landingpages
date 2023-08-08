@@ -1,0 +1,54 @@
+* {
+    background-color: rgb(226, 168, 43);
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.menu a {
+    font-size: 20px;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 32px;
+}
+
+.navbar button {
+    border: none;
+    border-radius: 12px;
+    width: 100px;
+    height: 50px;
+    background-color: brown;
+    color: aliceblue;
+
+    cursor: pointer;
+    font-size: 20px; 
+    font-family: sans-serif;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.presentation h1 {
+    font-size: 64px;
+}
+.presentation span {
+    color: brown;
+    font-size: 80px;
+}
+
+.presentation p {
+    font-size: 20px;
+}
